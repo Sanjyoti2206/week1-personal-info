@@ -1,0 +1,92 @@
+Examples of Test Cases and Validation
+
+To verify that the Personal Information Manager works correctly, different test cases were performed. 
+These test cases ensure that the program handles user input properly and produces the expected output.
+
+Test Case 1: Valid User Input
+
+Input:
+
+Favorite Food: Pizza
+
+Favorite Color: Blue
+
+Expected Result:
+
+The program accepts the input
+
+Displays all personal information correctly
+
+Actual Result:
+
+Program displays name, age, city, hobby, favorite food, and favorite color correctly
+
+Status: Passed
+
+
+Test Case 2: Empty Favorite Food Input
+
+Input:
+
+Favorite Food: (left blank)
+
+Expected Result:
+
+Program should display an error message
+
+User should be asked to enter the value again
+
+Actual Result:
+
+Program displays “Please enter a valid food!”
+
+Input is requested again until a valid value is entered
+
+Status: Passed
+
+Test Case 3: Empty Favorite Color Input
+
+Input:
+
+Favorite Color: (left blank)
+
+Expected Result:
+
+Program should not accept empty input
+
+User should be prompted again
+
+Actual Result:
+
+Program displays “Please enter a valid color!”
+
+User is asked again for input
+
+Status: Passed
+
+Test Case 4: Age Calculation Validation
+
+Input:
+
+Age: 22 years
+
+Expected Result:
+
+Age in months should be 264
+
+Actual Result:
+
+Program displays: Age: 22 years (264 months old)
+
+Status: Passed
+
+
+Validation Summary
+
+User input is properly validated
+
+Empty inputs are not accepted
+
+Calculations are accurate
+
+Output format is clear and readable
